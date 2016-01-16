@@ -1,0 +1,37 @@
+* { margin: 0; padding: 0; }
+img{ border: 0; }
+.clearboth{ clear: both; }
+table{ table-layout:fixed;word-wrap:break-word; }
+td{ vertical-align: top; }
+html{ height: 100%; overflow: -moz-scrollbars-vertical; }
+a:hover, a:active, a:focus, a:active{ outline: none; -moz-outline-style: none; }
+acronym { font-style: italic; border: 0px; cursor: help; }
+.standardCheckBox{ margin:0;width:13px;height:13px;overflow:hidden; } /* for similar padding and margin of all checkbox's in all browsers */
+
+body{ background: #ccc; font-family: 'PT Sans', sans-serif; }
+
+
+/********************** RESET ******************/
+
+#mainContainer{ width: 1285px; background: #fff; margin: 33px auto 0 auto; overflow: hidden; }
+#container{ background: #ccdfdb; }
+#leftColTd{ width: 929px; }
+#leftCol{ width: 928px; background: #fff; overflow: hidden; }
+#rightColTd{ width: auto; background: #fff; }
+#rightCol{ width: 336px; padding: 30px 0 0 20px; color: #333; overflow: hidden; }
+#footer{ clear: both; padding: 5px 0 5px 0; background: #005f4c; color: #fff; text-align: center; font-size: 14px; }
+
+h1{ margin: 0 0 30px 0; color: #005f4c; line-height: 38px; }
+h3{ margin: 0 0 10px 0; }
+a{ color: blue; text-decoration: underline; }
+
+/********************** LOGIN ******************/
+
+.alert-danger{ color: red; }
+#txtusername, #txtpassword{ padding: 6px; }
+#txtoldpassword, #txtnewpassword{ padding: 6px; }
+#btnLogin{ background: #005f4c; padding: 5px 20px 5px 20px; color: #fff; border: none; }
+#btnReset{ background: #005f4c; padding: 5px 20px 5px 20px; color: #fff; border: none; }
+.form-group, .form-actions{ margin: 10px 0 0 0; }
+.forget-password{ margin: 30px 0 0 0; }
+.checkbox{ display: block; margin: 0 0 10px 0; }
